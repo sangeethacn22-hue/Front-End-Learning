@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>CSS Grid</title>
+    <style>
+      .one {
+        height: 400px;
+        width: auto;
+        background-color: blue;
+        border-color: solid red;
+      }
+      .two {
+        height: 400px;
+        width: auto;
+        background-color: red;
+        border-color: solid yellow;
+      }
+      .three {
+        height: 400px;
+        width: auto;
+        background-color: pink;
+        border-color: solid yellow;
+      }
+      .main {
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="1">1</div>
+      <div class="two">2</div>
+      <div class="three">3</div>
+    </div>
+  </body>
+</html>

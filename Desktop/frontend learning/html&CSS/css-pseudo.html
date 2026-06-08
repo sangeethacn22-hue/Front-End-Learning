@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>CSS Pseudo learning</title>
+    <style>
+      .hello {
+        background-color: yellow;
+        width: 150px;
+        height: 50px;
+      }
+      .hello:hover {
+        background-color: green;
+      }
+      p::first-line {
+        font-size: 32px;
+        color: green;
+      }
+      p::first-letter {
+        font-size: 45px;
+        font-style: italic;
+      }
+      p::selection {
+        background-color: pink;
+      }
+      li:nth-child(3n + 1) {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="hello">Hello</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum laborum saepe
+      fuga consectetur cumque eius. Consectetur officiis minima nemo maxime
+      sequi tenetur nesciunt nostrum suscipit, possimus, expedita saepe! Enim,
+      quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+      alias aliquid aut molestiae quam consectetur veniam voluptate assumenda
+      pariatur voluptatum, cupiditate repellat quaerat culpa numquam magni
+      magnam cum adipisci illum. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Maxime pariatur modi nihil debitis aut tempore eaque
+      molestias minus delectus sit. Fugiat mollitia incidunt facilis expedita
+      dolorum quidem! Eligendi, facilis culpa.
+    </p>
+    <ul>
+      <li>Kohli number 18</li>
+      <li>Dhoni number 7</li>
+      <li>ROhith Sharma number 45</li>
+      <li>Sachin number 10</li>
+      <li>ganguly number 99</li>
+      <li>Kohli number 18</li>
+      <li>Dhoni number 7</li>
+      <li>ROhith Sharma number 45</li>
+      <li>Sachin number 10</li>
+      <li>ganguly number 99</li>
+    </ul>
+  </body>
+</html>
